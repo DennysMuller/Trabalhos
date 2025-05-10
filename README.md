@@ -1,6 +1,8 @@
 # Trabalho Final - Fundamentos de JavaScript
 
-Este projeto consiste na implementação de funções em JavaScript para resolver problemas relacionados ao gerenciamento de informações de animais em um abrigo. Os testes para as funções estão no arquivo `trabalho-final.js`, e as implementações das funções estão no arquivo `trabalho.js`.
+  Este projeto consiste na implementação de funções em JavaScript para resolver problemas relacionados ao gerenciamento de
+informações de animais em um abrigo. Os testes para as funções estão no arquivo `trabalho-final.js`, e as implementações das funções estão no arquivo `trabalho.js`.
+![Trabalho Final](Trabalho_final.png)
 
 ## Explicação Detalhada das Funções:
 
@@ -92,8 +94,8 @@ Este projeto consiste na implementação de funções em JavaScript para resolve
     npx mocha Final/Testes/trabalho-final.js
     ```
 
-    * Isso executará os testes definidos em `trabalho-final.js`.
-    ![Os resultados serão exibidos no terminal](exemplo.png)
+    * Isso executará os testes definidos em `trabalho-final.js`. Os resultados serão exibidos no terminal.
+    ![Exemplo](exemplo.png)
 
 ## Observações Importantes:
 
