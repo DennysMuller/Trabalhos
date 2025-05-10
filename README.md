@@ -105,7 +105,7 @@ informações de animais em um abrigo. Os testes para as funções estão no arq
 * **`assert.strictEqual()`**:  Função para verificar se dois valores são estritamente iguais.
 * **`Promise`** é um objeto usado para lidar com operações assíncronas, como requisições a APIs, leitura de arquivos, etc.
   - Uma **Promise** representa um valor que pode estar disponível agora, no futuro ou nunca. Ela tem três estados:
-  - *Pendente (pending):* A operação ainda está em andamento.
-  - *Resolvida (fulfilled):* A operação foi concluída com sucesso.
-  - *Rejeitada (rejected):* A operação falhou.
+  - __Pendente (pending):__ A operação ainda está em andamento.
+  - __Resolvida (fulfilled):__ A operação foi concluída com sucesso.
+  - __Rejeitada (rejected):__ A operação falhou.
 * **`async` / `await`**: Usados para lidar com a função assíncrona `buscarDadoAsync()`.
