@@ -93,7 +93,7 @@ Este projeto consiste na implementação de funções em JavaScript para resolve
     ```
 
     * Isso executará os testes definidos em `trabalho-final.js`.
-    ![Os resultados serão exibidos no terminal](../exemplo.png)
+    ![Os resultados serão exibidos no terminal](exemplo.png)
 
 ## Observações Importantes:
 
