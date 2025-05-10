@@ -57,7 +57,7 @@ informações de animais em um abrigo. Os testes para as funções estão no arq
     ```
 
     * Recebe o `porte` do animal como entrada.
-    * Usa uma estrutura `if-else if-else` para determinar a atividade apropriada com base no porte:
+    * Usa uma estrutura `if-else if` para determinar a atividade apropriada com base no porte:
         * 'pequeno' -\> 'brincar dentro de casa'
         * 'medio'   -\> 'passear no parque'
         * 'grande'  -\> 'correr em campo aberto'
@@ -103,4 +103,10 @@ informações de animais em um abrigo. Os testes para as funções estão no arq
 * **`export` / `import`**: As funções em `trabalho.js` são exportadas e importadas para que o arquivo de teste possa usá-las.
 * **`describe` e `it`**:  Funções do framework de testes (Mocha neste caso) para organizar os testes.
 * **`assert.strictEqual()`**:  Função para verificar se dois valores são estritamente iguais.
+* **`Promise`** é um objeto usado para lidar com operações assíncronas, como requisições a APIs, leitura de arquivos, etc.
+  - Uma **Promise** representa um valor que pode estar disponível agora, no futuro ou nunca. Ela tem três estados:
+
+  - **Pendente (pending):** A operação ainda está em andamento.
+  - **Resolvida (fulfilled):** A operação foi concluída com sucesso.
+  - **Rejeitada (rejected):** A operação falhou.
 * **`async` / `await`**: Usados para lidar com a função assíncrona `buscarDadoAsync()`.
