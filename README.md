@@ -1,4 +1,4 @@
-# Trabalho Final do Dennys Müller- Fundamentos de JavaScript
+# Trabalho Final do Dennys Müller - Fundamentos de JavaScript
 
 &nbsp;&nbsp;&nbsp;Este projeto consiste na implementação de funções em JavaScript para resolver problemas relacionados ao gerenciamento de
 informações de animais em um abrigo. Os testes para as funções estão no arquivo `trabalho-final.js`, e as implementações das funções estão no arquivo `trabalho.js`.
