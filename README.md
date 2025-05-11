@@ -109,3 +109,56 @@ informações de animais em um abrigo. Os testes para as funções estão no arq
   - __Resolvida (fulfilled):__ A operação foi concluída com sucesso.
   - __Rejeitada (rejected):__ A operação falhou.
 * **`async` / `await`**: Usados para lidar com a função assíncrona `buscarDadoAsync()`.
+---
+# Trabalhos extras
+
+Este repositório contém duas funções JavaScript para realizar tarefas específicas:
+
+1.  Filtrar uma lista de números e strings.
+2.  Contar o número de vogais em uma string.
+
+## 1. Função `filtrarInteiros`
+
+### Descrição
+
+A função `filtrarInteiros` recebe uma lista que pode conter números inteiros e strings, e retorna uma nova lista contendo apenas os números inteiros.
+![Filtrar uma lista de números e strings](01-Criar_função_pega_lista_de_inteiros_e_strings.png)
+
+### Código
+
+```javascript
+function filtrarInteiros(lista) {
+  const novaLista = [];
+  for (let i = 0; i < lista.length; i++) {
+    const elemento = lista[i];
+    if (typeof elemento === 'number') {
+      novaLista.push(elemento);
+    }
+  }
+  return novaLista;
+}
+
+# Função `contarVogais`
+
+## Descrição
+
+A função `contarVogais` recebe uma string como entrada e retorna o número total de vogais (a, e, i, o, u) presentes na string. A string de entrada deve conter apenas letras minúsculas e/ou espaços. Letras acentuadas não são consideradas.
+![Contar o número de vogais em uma string](02-Retornar_o_número_de_vogais_no_texto_fornecido.png)
+
+## Código
+
+```javascript
+function contarVogais(texto) {
+  let contadorVogais = 0;
+  const vogais = ['a', 'e', 'i', 'o', 'u'];
+  for (let i = 0; i < texto.length; i++) {
+    const caractere = texto[i];
+    if (vogais.includes(caractere)) {
+      contadorVogais++;
+    }
+  }
+  return contadorVogais;
+}
+
+---
+🔗 Saiba mais em [PGATS](https://pgats.com.br/)
