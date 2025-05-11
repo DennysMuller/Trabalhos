@@ -137,15 +137,16 @@ function filtrarInteiros(lista) {
   }
   return novaLista;
 }
+```
 
-# Função `contarVogais`
+## 2. Função `contarVogais`
 
-## Descrição
+### Descrição
 
 A função `contarVogais` recebe uma string como entrada e retorna o número total de vogais (a, e, i, o, u) presentes na string. A string de entrada deve conter apenas letras minúsculas e/ou espaços. Letras acentuadas não são consideradas.
 ![Contar o número de vogais em uma string](02-Retornar_o_número_de_vogais_no_texto_fornecido.png)
 
-## Código
+### Código
 
 ```javascript
 function contarVogais(texto) {
@@ -159,6 +160,7 @@ function contarVogais(texto) {
   }
   return contadorVogais;
 }
-
+```
 ---
+
 🔗 Saiba mais em [PGATS](https://pgats.com.br/)
